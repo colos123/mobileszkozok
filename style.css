@@ -1,5 +1,5 @@
 header{
-    background-color: white;
+    background-color: blue;
 }
 
 .container{
@@ -9,20 +9,21 @@ header{
 }
 
 .header-top-bar{    
-    background-color: #3b97d3;
-    color: white;
+    background-color: rgb(20, 184, 184);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    background-image: linear-gradient(to right, rgba(25, 218, 18, 0.877));
 }
 
 .cseszernyes{
-    width: 140px;
+    width: 200px;
 }
 
 .logo{
-    size: 10px;
+    size: 40px;
     font-weight: bold;
     color: white;
 }
@@ -70,11 +71,11 @@ footer{
 }
 
 .bal_oldal{
-    background-color: #f7cac9;
+    background-color: limegreen;
     padding: 40px;
     text-align: justify; /*sorkizártan igazit*/
 
-    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(253, 252, 252, 0.3)), url('./bg.jpg');
+    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(253, 252, 252, 0.3)), url('./pojcsik.jpg');
 
     /*Teljes körű kitöltés*/
 
